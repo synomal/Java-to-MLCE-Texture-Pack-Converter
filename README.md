@@ -86,12 +86,12 @@ When you run Auto-Sync, add the folder containing these files as part of your li
 ## Known Limitations
 
 ### Block and Item Texture Folder Conflicts
-Java Edition texture packs store **block textures** and **item textures** in separate subfolders (textures/block/ and textures/item/), and some filenames are shared between the two — for example a block and its item drop can have the exact same filename. Because of this, when running Auto-Sync you should point your library at the specific subfolder you are building for rather than the root of the pack:
+Java Edition texture packs store block textures and item textures in separate subfolders (`textures/block/` and `textures/item/`), and some filenames are shared between the two — for example a block and its item drop can have the exact same filename. Because of this, when running Auto-Sync you should **point your library at the specific subfolder** you are building for rather than the root of the pack:
 
-For **terrain builds** — browse to the **textures/block/** folder
-For **item builds** — browse to the **textures/item/** folder
+- For **terrain** builds — browse to the `textures/block/` folder
+- For **items** builds — browse to the `textures/item/` folder
 
-If you point the library at the pack root or the textures/ folder, block textures can end up being placed in item slots and vice versa wherever filenames collide.
+If you point the library at the pack root or the `textures/` folder, block textures can end up being placed in item slots and vice versa wherever filenames collide.
 
 ### Particles Sheet
 The particles JSON mapping file is **not yet available**. The Particles tab is present in the tool but cannot be used to generate a sheet until the mapping file is added in a future update.
