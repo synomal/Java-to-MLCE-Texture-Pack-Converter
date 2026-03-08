@@ -12,7 +12,6 @@ A desktop GUI tool for converting modern **Java Edition texture packs** into the
 - **Live preview** — Click any mapped entry to instantly preview the texture it will place
 - **Multi-resolution output** — Build at **16×**, **32×**, or **64×** with one click; all coordinates scale automatically
 - **Terrain mip maps** — Automatically generates `terrainMipMapLevel2.png` (½ size) and `terrainMipMapLevel3.png` (¼ size) alongside the main terrain sheet
-- **Animated texture support** — Strips animated textures down to their first frame automatically so nothing breaks in the atlas
 - **Search / filter** — Filter any tab's entry list in real time by name
 - **Bundled MLCE-exclusive textures** — Several textures that exist only in Legacy Console Edition and have no Java equivalent are included in the repo ready to use
 
