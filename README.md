@@ -76,9 +76,9 @@ Legacy Console Edition contains a number of textures that were either removed fr
 | `firetex.png` | MLCE fire texture variant |
 | `lava_flow.png` | MLCE lava flow texture variant |
 | `Purple_tex.png` | Purple/chorus-related texture exclusive to MLCE |
-| `brown_thing.png` | MLCE-exclusive brown UI element |
-| `brown_thing_2.png` | MLCE-exclusive brown UI element variant 2 |
-| `brown_thing_3.png` | MLCE-exclusive brown UI element variant 3 |
+| `brown_thing.png` | Leather armour item overlay — used to tint leather armour pieces |
+| `brown_thing_2.png` | Leather armour item overlay variant 2 |
+| `brown_thing_3.png` | Leather armour item overlay variant 3 |
 
 When you run Auto-Sync, add the folder containing these files as part of your library and they will be matched automatically.
 
